@@ -1,8 +1,275 @@
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-LightItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Bold.woff2") format("woff2"), url("/assets/fonts/Daikon-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-BlackItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-BoldItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Italic.woff2") format("woff2"), url("/assets/fonts/Daikon-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Black.woff2") format("woff2"), url("/assets/fonts/Daikon-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Light.woff2") format("woff2"), url("/assets/fonts/Daikon-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-ExtraLightItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-ExtraLight.woff2") format("woff2"), url("/assets/fonts/Daikon-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-SemiBold.woff2") format("woff2"), url("/assets/fonts/Daikon-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Thin.woff2") format("woff2"), url("/assets/fonts/Daikon-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-SemiBoldItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-MediumItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Regular.woff2") format("woff2"), url("/assets/fonts/Daikon-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-ThinItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Medium.woff2") format("woff2"), url("/assets/fonts/Daikon-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Meticula";
+  src: url("/assets/fonts/Meticula-Regular.woff2") format("woff2"), url("/assets/fonts/Meticula-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 * {
   margin: 0;
   padding: 0;
   border: none;
   box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: aliceblue;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+}
+
+a {
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+p > span.bold {
+  font-weight: 600;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 55px;
+}
+header h2 {
+  font-family: "Baloo Bhaijaan 2", serif;
+  font-weight: 500;
+  font-size: 46px;
+  letter-spacing: 2px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li:not(:first-of-type) {
+  margin-left: 20px;
+}
+header nav ul li a {
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 1px;
+  border-bottom: 2px solid aliceblue;
+}
+
+#landing-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/assets/images/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: -1;
+}
+#landing-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(133deg, rgb(34, 193, 195) 0%, rgb(56, 239, 125) 100%);
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+  z-index: -2;
+  pointer-events: none;
+}
+#landing-page #landing-primary-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  padding-bottom: 50px;
+}
+#landing-page #landing-primary-content h1 {
+  font-size: 97px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 800;
+}
+#landing-page #landing-primary-content p {
+  font-size: 25px;
+  letter-spacing: 4px;
+  opacity: 0.7;
+  font-weight: 0;
+  margin-top: -15px;
+}
+#landing-page #landing-lower {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#landing-page #landing-lower p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  opacity: 0.8;
+  font-weight: 400;
+  margin-bottom: 13px;
+}
+#landing-page #landing-lower #landing-buttons {
+  z-index: 99 !important;
+}
+#landing-page #landing-lower #landing-buttons button {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin: 0 15px;
+  border-radius: 40px;
+  border: 2px solid aliceblue;
+  min-width: 160px;
+  min-height: 43px;
+  pointer-events: all;
+}
+#landing-page #landing-lower #landing-buttons button#find-deals-button {
+  background-color: aliceblue;
+}
+#landing-page #landing-lower #landing-buttons button#find-deals-button:hover {
+  background-color: red;
+}
+#landing-page #landing-lower #landing-buttons button#learn-more-button {
+  background-color: transparent;
+  color: aliceblue;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,156 @@
+$font-dir: "/assets/fonts/";
+
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-LightItalic.woff2') format('woff2'),
+    url($font-dir + 'Daikon-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-Bold.woff2') format('woff2'),
+    url($font-dir + 'Daikon-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-BlackItalic.woff2') format('woff2'),
+    url($font-dir + 'Daikon-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-BoldItalic.woff2') format('woff2'),
+    url($font-dir + 'Daikon-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-Italic.woff2') format('woff2'),
+    url($font-dir + 'Daikon-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-Black.woff2') format('woff2'),
+    url($font-dir + 'Daikon-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-Light.woff2') format('woff2'),
+    url($font-dir + 'Daikon-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-ExtraLightItalic.woff2') format('woff2'),
+    url($font-dir + 'Daikon-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-ExtraLight.woff2') format('woff2'),
+    url($font-dir + 'Daikon-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-SemiBold.woff2') format('woff2'),
+    url($font-dir + 'Daikon-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-Thin.woff2') format('woff2'),
+    url($font-dir + 'Daikon-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-SemiBoldItalic.woff2') format('woff2'),
+    url($font-dir + 'Daikon-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-MediumItalic.woff2') format('woff2'),
+    url($font-dir + 'Daikon-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-Regular.woff2') format('woff2'),
+    url($font-dir + 'Daikon-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-ThinItalic.woff2') format('woff2'),
+    url($font-dir + 'Daikon-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Daikon';
+    src: url($font-dir + 'Daikon-Medium.woff2') format('woff2'),
+    url($font-dir + 'Daikon-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Meticula';
+    src: url($font-dir + 'Meticula-Regular.woff2') format('woff2'),
+    url($font-dir + 'Meticula-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
