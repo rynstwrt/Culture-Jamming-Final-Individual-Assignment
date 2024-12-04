@@ -186,7 +186,6 @@ header nav ul li a {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-color: blue;
   display: flex;
   flex-direction: column;
   justify-content: center;
