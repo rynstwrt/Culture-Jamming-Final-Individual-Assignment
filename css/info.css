@@ -193,6 +193,9 @@ main .section .card p {
   font-size: 17px;
   font-weight: 400;
 }
+main .section .card p:not(:first-of-type) {
+  margin-top: 8px;
+}
 main .section .card:not(:first-of-type) {
   margin-top: 10px;
 }
