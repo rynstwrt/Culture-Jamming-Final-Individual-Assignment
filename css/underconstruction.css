@@ -128,26 +128,23 @@ html, body {
   height: 100%;
 }
 
+a {
+  color: inherit;
+  font-family: inherit;
+  text-decoration: none;
+}
+
 body {
   background-color: aliceblue;
   color: white;
   font-family: "Manrope", sans-serif;
   font-weight: normal;
-  width: 100vw;
-  height: 100vh;
   background-image: url("/assets/images/landing.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-color: blue;
-  backdrop-filter: blur(2px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px;
-  text-align: center;
-  z-index: -5;
+  padding-top: 150px;
 }
 body::before {
   content: "";
@@ -159,15 +156,9 @@ body::before {
   background: rgb(34, 193, 195);
   background: linear-gradient(133deg, rgb(34, 193, 195) 0%, rgb(56, 239, 125) 100%);
   mix-blend-mode: multiply;
-  opacity: 0.2;
+  opacity: 0.5;
   z-index: -2;
   pointer-events: none;
-}
-
-a {
-  color: inherit;
-  font-family: inherit;
-  text-decoration: none;
 }
 
 header {
@@ -179,7 +170,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 40px 55px;
-  z-index: 10;
 }
 header h2 {
   font-family: "Baloo Bhaijaan 2", serif;
@@ -204,36 +194,40 @@ header nav ul li a {
   border-bottom: 2px solid aliceblue;
 }
 
-h1 {
-  font-size: 70px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  margin-top: 80px;
-  font-weight: 800;
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-#overlay {
+body::after {
+  content: "";
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   background-color: black;
-  opacity: 0.6;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 70px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 section {
   background-color: #c04c3d;
   width: 100%;
   padding: 45px 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
   z-index: 20;
-  margin: -20px;
+  margin-top: -20px;
 }
 section h3 {
-  font-size: 30px;
+  text-transform: uppercase;
+  font-size: 27px;
+  text-align: center;
+  letter-spacing: 3px;
 }
 
-/*# sourceMappingURL=workinprogress.css.map */
+/*# sourceMappingURL=underconstruction.css.map */
