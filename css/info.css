@@ -157,6 +157,7 @@ h1 {
   color: transparent;
   background: linear-gradient(180deg, rgb(221, 24, 24) 50%, rgb(51, 51, 51) 100%);
   background-clip: text;
+  letter-spacing: 1px;
 }
 
 main {
@@ -191,8 +192,44 @@ main .section .card p {
 main .section .card:not(:first-of-type) {
   margin-top: 10px;
 }
-main .section:not(:first-of-type) {
-  margin-top: 45px;
+main .section .card.sources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .section .card.sources h5 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+main .section .card.sources ul {
+  list-style: decimal;
+  margin-left: 2ch;
+}
+main .section .card.sources ul li > a {
+  text-decoration: none;
+  color: #d71818;
+}
+main .section .card.sources ul li > a:hover {
+  text-decoration: underline;
+}
+main .section:not(:last-of-type) {
+  margin-bottom: 45px;
+}
+main .section.ending {
+  background-color: transparent;
+  padding: 30px;
+}
+main .section.ending h6 {
+  font-size: 55px;
+  font-family: "Paint Font", cursive;
+  font-weight: normal;
+  font-style: normal;
+  color: transparent;
+  background: linear-gradient(180deg, rgb(221, 24, 24) 50%, black 100%);
+  background-clip: text;
+  text-align: center;
 }
 
 /*# sourceMappingURL=info.css.map */

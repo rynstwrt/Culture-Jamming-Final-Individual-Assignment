@@ -13,12 +13,14 @@ h1
     //background: linear-gradient(180deg, rgba(221,24,24,1) 50%, $color-black 100%);
     background: linear-gradient(180deg, rgba(221,24,24,1) 50%, rgba(51,51,51,1) 100%);
     background-clip: text;
+    letter-spacing: 1px;
 }
 
 
 main
 {
     max-width: 900px;
+    //max-width: 850px;
 
     .section
     {
@@ -62,11 +64,76 @@ main
             {
                 margin-top: 10px;
             }
+
+            &.sources
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                h5
+                {
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: 20px;
+                    letter-spacing: 1px;
+                    //font-style: ita;
+                }
+
+                ul
+                {
+                    list-style: decimal;
+                    margin-left: 2ch;
+
+                    li > a
+                    {
+                        text-decoration: none;
+                        color: $color-red;
+
+                        &:hover
+                        {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
         }
 
-        &:not(:first-of-type)
+        &:not(:last-of-type)
         {
-            margin-top: 45px;
+            margin-bottom: 45px;
+        }
+
+        &.ending
+        {
+            background-color: transparent;
+            padding: 30px;
+            //box-shadow: 10px -5px white;
+            //box-shadow: none;
+
+            h6
+            {
+                font-size: 55px;
+                //margin-bottom: 18px;
+                font-family: "Paint Font", cursive;
+                font-weight: normal;
+                font-style: normal;
+                //position: relative;
+                color: transparent;
+                //background: linear-gradient(180deg, rgba(221,24,24,1) 50%, $color-black 100%);
+                background: linear-gradient(180deg, rgba(221,24,24,1) 50%, black 100%);
+                background-clip: text;
+                text-align: center;
+            }
         }
     }
+
+
+    //.divider
+    //{
+    //    margin-top: 45px;
+    //    width: 100%;
+    //    //margin: 10px 0;
+    //    border-bottom: 2px solid blue;
+    //}
 }
