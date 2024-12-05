@@ -53,7 +53,9 @@ main
         {
             //background-color: darken(white, 14%);
             //background-color: darken(white, 16%);
-            background-color: darken(white, 15%);
+            //background-color: darken(white, 15%);
+            //background-color: darken(white, 14%);
+            background-color: darken(white, 12%);
             padding: 17px 20px;
 
             h5
@@ -63,20 +65,28 @@ main
                 font-weight: 700;
                 font-family: $font-2;
                 letter-spacing: 1px;
-                margin-bottom: 7px;
+                //margin-bottom: 7px;
+                margin-bottom: 10px;
             }
 
             p
             {
                 //font-size: 18px;
-                font-size: 17px;
-                font-weight: 400;
-                margin-bottom: 8px;
+                //font-size: 17px;
+                font-size: 16px;
+                //font-weight: 400;
+                font-weight: 500;
+                //color: black;
+                //margin-bottom: 8px;
+                //letter-spacing: unset;
+                letter-spacing: .5px;
 
-                //&:not(:first-of-type)
-                //{
-                //    margin-top: 8px;
-                //}
+                &:not(:first-of-type)
+                {
+                    //margin-top: 8px;
+                    //margin-top: 13px;
+                    margin-top: 15px;
+                }
             }
 
             a
