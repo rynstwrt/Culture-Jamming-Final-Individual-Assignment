@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-LightItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Bold.woff2") format("woff2"), url("/assets/fonts/Daikon-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-BlackItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-BoldItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Italic.woff2") format("woff2"), url("/assets/fonts/Daikon-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Black.woff2") format("woff2"), url("/assets/fonts/Daikon-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Light.woff2") format("woff2"), url("/assets/fonts/Daikon-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-ExtraLightItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-ExtraLight.woff2") format("woff2"), url("/assets/fonts/Daikon-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-SemiBold.woff2") format("woff2"), url("/assets/fonts/Daikon-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Thin.woff2") format("woff2"), url("/assets/fonts/Daikon-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-SemiBoldItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-MediumItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Regular.woff2") format("woff2"), url("/assets/fonts/Daikon-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-ThinItalic.woff2") format("woff2"), url("/assets/fonts/Daikon-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Daikon";
+  src: url("/assets/fonts/Daikon-Medium.woff2") format("woff2"), url("/assets/fonts/Daikon-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Meticula";
+  src: url("/assets/fonts/Meticula-Regular.woff2") format("woff2"), url("/assets/fonts/Meticula-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Paint Font";
+  font-weight: normal;
+  src: url("/assets/fonts/Paint Font/Paint-JpZDE.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  font-family: "Manrope", sans-serif;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+h1 {
+  font-size: 85px;
+  margin-bottom: 18px;
+  font-family: "Paint Font", cursive;
+  font-weight: normal;
+  font-style: normal;
+  position: relative;
+  color: transparent;
+  background: linear-gradient(180deg, rgb(221, 24, 24) 50%, rgb(51, 51, 51) 100%);
+  background-clip: text;
+}
+
+main {
+  max-width: 900px;
+}
+main .section {
+  box-sizing: content-box;
+  background-color: white;
+  padding: 13px 20px;
+  color: black;
+  box-shadow: 10px -5px #d71818;
+}
+main .section h4 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+main .section .card {
+  background-color: #d6d6d6;
+  padding: 17px 20px;
+}
+main .section .card h5 {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+}
+main .section .card p {
+  font-size: 18px;
+  font-weight: 400;
+}
+main .section .card:not(:first-of-type) {
+  margin-top: 10px;
+}
+main .section:not(:first-of-type) {
+  margin-top: 45px;
+}
+
+/*# sourceMappingURL=info.css.map */
