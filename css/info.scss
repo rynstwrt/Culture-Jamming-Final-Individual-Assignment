@@ -21,6 +21,7 @@ main
 {
     max-width: 900px;
     //max-width: 850px;
+    padding-bottom: 150px !important;
 
     .section
     {
@@ -67,23 +68,34 @@ main
 
             &.sources
             {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                
+                background-color: transparent;
+                //display: flex;
+                //flex-direction: column;
+                //align-items: center;
+                padding: 0;
+                //padding: 0 0 0 1ch;
+                margin-top: 20px;
+                margin-bottom: 2px;
+
                 h5
                 {
-                    text-align: center;
-                    font-weight: 400;
-                    font-size: 20px;
+                    //text-align: center;
+                    font-weight: 500;
+                    font-size: 18px;
                     letter-spacing: 1px;
                     //font-style: ita;
+                    text-transform: uppercase;
+                    //text-decoration: underline;
+                    //text-decoration-thickness: 2px;
+                    //text-underline-offset: 3px;
+                    //margin-bottom: 5px;
+                    margin-bottom: 1px;
                 }
 
                 ul
                 {
                     list-style: decimal;
-                    margin-left: 2ch;
+                    margin-left: 4ch;
 
                     li > a
                     {
@@ -137,3 +149,4 @@ main
     //    border-bottom: 2px solid blue;
     //}
 }
+
