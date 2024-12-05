@@ -237,9 +237,8 @@ h1 {
 main {
   background-color: rgba(29, 33, 39, 0.6);
   width: 100%;
-  height: 100%;
   border-radius: 25px;
-  padding: 25px 20px;
+  padding: 15px;
 }
 main .section {
   width: 100%;
@@ -249,8 +248,9 @@ main .section {
   border-radius: 10px;
 }
 main .section h4 {
-  font-size: 30px;
-  margin-bottom: 25px;
+  font-size: 32px;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
 }
 main .section h4 span.emoji {
   margin-left: 1px;
@@ -265,19 +265,79 @@ main .section .section-content {
 main .section .section-content .card {
   background-color: #f5f5f5;
   color: #252930;
-  padding: 13px 20px;
+  padding: 20px 20px;
   border-radius: 11px;
   box-shadow: 0 3px 5px 3px rgba(0, 0, 0, 0.1);
-  max-width: 260px;
-  min-height: 150px;
+  max-width: 300px;
+  position: relative;
+}
+main .section .section-content .card .logo {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+  opacity: 0.5;
+}
+main .section .section-content .card .logo.mcdonalds {
+  background-image: url("https://gorillastudio.co.uk/wp-content/uploads/point_4-01.png");
+}
+main .section .section-content .card .logo.chick-fil-a {
+  background-image: url("https://pbs.twimg.com/profile_images/987417355188883457/BNfarabT_400x400.jpg");
+}
+main .section .section-content .card .logo.puma {
+  background-image: url("https://fontmeme.com/images/Puma-Logo.jpg");
 }
 main .section .section-content .card h5 {
-  font-size: 21px;
+  font-size: 29px;
   font-weight: 700;
   color: #1d2127;
+  letter-spacing: 1px;
+  z-index: 1;
+  font-family: "Manrope", sans-serif;
 }
 main .section .section-content .card p {
-  font-size: 16px;
+  z-index: 1;
+}
+main .section .section-content .card p.subheading {
+  margin-top: 3px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+main .section .section-content .card p:not(main .section .section-content .card p.subheading) {
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 400;
+}
+main .section .section-content .card .card-buttons a {
+  display: block;
+  font-family: inherit;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 1px;
+  border-radius: 40px;
+  border: 2px solid rgb(34, 193, 195);
+  padding: 5px 0;
+  pointer-events: all;
+  transition: background-color 0.17s ease-out, color 0.17s ease-out, border-color 0.17s ease-out;
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(34, 193, 195);
+  margin-top: 30px;
+  justify-self: flex-end;
+  justify-content: flex-end;
+}
+main .section .section-content .card .card-buttons a:hover {
+  color: #252930;
+  background-color: rgb(34, 193, 195);
 }
 
 /*# sourceMappingURL=deals.css.map */
