@@ -3,7 +3,7 @@
 
 h1
 {
-    font-size: 85px;
+    font-size: 87px;
     margin-bottom: 18px;
     font-family: "Paint Font", cursive;
     font-weight: normal;
@@ -45,7 +45,8 @@ main
         .card
         {
             //background-color: darken(white, 14%);
-            background-color: darken(white, 16%);
+            //background-color: darken(white, 16%);
+            background-color: darken(white, 15%);
             padding: 17px 20px;
 
             h5
@@ -75,7 +76,7 @@ main
                 padding: 0;
                 //padding: 0 0 0 1ch;
                 margin-top: 20px;
-                margin-bottom: 2px;
+                margin-bottom: 5px;
 
                 h5
                 {
