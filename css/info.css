@@ -192,9 +192,16 @@ main .section .card h5 {
 main .section .card p {
   font-size: 17px;
   font-weight: 400;
+  margin-bottom: 8px;
 }
-main .section .card p:not(:first-of-type) {
-  margin-top: 8px;
+main .section .card a {
+  text-decoration: none;
+  color: #d71818;
+  font-size: 15px;
+  margin-top: 15px;
+}
+main .section .card a:hover {
+  text-decoration: underline;
 }
 main .section .card:not(:first-of-type) {
   margin-top: 10px;
