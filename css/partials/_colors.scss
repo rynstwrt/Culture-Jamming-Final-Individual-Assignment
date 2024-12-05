@@ -4,5 +4,6 @@ $color-dark: #252930;
 
 $color-accent: rgba(34,193,195,1);  // #22c1c3;
 $color-accent-2: rgba(56,239,125,1);  // #38ef7d;
+$color-accent-2-lighter: lighten($color-accent-2, 7%);
 
 $color-warning: #c04c3d;

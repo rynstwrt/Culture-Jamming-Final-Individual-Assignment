@@ -135,8 +135,7 @@ a {
 }
 
 body {
-  background-color: aliceblue;
-  color: white;
+  color: aliceblue;
   font-family: "Manrope", sans-serif;
   font-weight: normal;
   background-image: url("/assets/images/landing.jpg");
@@ -156,9 +155,19 @@ body::before {
   background: rgb(34, 193, 195);
   background: linear-gradient(133deg, rgb(34, 193, 195) 0%, rgb(56, 239, 125) 100%);
   mix-blend-mode: multiply;
-  opacity: 0.5;
+  opacity: 0.4;
   z-index: -2;
-  pointer-events: none;
+}
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: black;
+  opacity: 0.11;
+  z-index: -1;
 }
 
 header {
@@ -174,7 +183,7 @@ header {
 header h2 {
   font-family: "Baloo Bhaijaan 2", serif;
   font-weight: 500;
-  font-size: 46px;
+  font-size: 38px;
   letter-spacing: 2px;
 }
 header nav ul {
@@ -184,14 +193,19 @@ header nav ul li {
   list-style: none;
 }
 header nav ul li:not(:first-of-type) {
-  margin-left: 20px;
+  margin-left: 18px;
 }
 header nav ul li a {
   letter-spacing: 1px;
-  font-size: 20px;
-  font-weight: 400;
-  padding-bottom: 1px;
-  border-bottom: 2px solid aliceblue;
+  font-size: 19px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: aliceblue;
+  text-underline-offset: 5px;
+  transition: text-shadow 0.2s ease-out;
+}
+header nav ul li a:hover {
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 a {

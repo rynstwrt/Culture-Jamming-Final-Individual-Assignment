@@ -27,8 +27,7 @@ a
 
 body
 {
-    background-color: $color-light;
-    color: white;
+    color: $color-light;
     font-family: $font-2;
     font-weight: normal;
     background-image: url("/assets/images/landing.jpg");
@@ -36,8 +35,6 @@ body
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    //padding-top: 50px;
-    //padding-top: 90px;
     padding-top: 150px;
 
     &::before
@@ -51,9 +48,21 @@ body
         background: $color-accent;
         background: linear-gradient(133deg, $color-accent 0%, $color-accent-2 100%);
         mix-blend-mode: multiply;
-        opacity: .5;
+        opacity: 0.4;
         z-index: -2;
-        pointer-events: none;
+    }
+
+    &::after
+    {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: black;
+        opacity: 0.11;
+        z-index: -1;
     }
 }
 
@@ -73,7 +82,7 @@ header
     {
         font-family: $font-1;
         font-weight: 500;
-        font-size: 46px;
+        font-size: 38px;
         letter-spacing: 2px;
     }
 
@@ -90,18 +99,84 @@ header
 
                 &:not(:first-of-type)
                 {
-                    margin-left: 20px;
+                    margin-left: 18px;
                 }
 
                 a
                 {
                     letter-spacing: 1px;
-                    font-size: 20px;
-                    font-weight: 400;
-                    padding-bottom: 1px;
-                    border-bottom: 2px solid $color-light;
+                    font-size: 19px;
+                    font-weight: 500;
+                    text-decoration: underline;
+                    text-decoration-color: $color-light;
+                    text-underline-offset: 5px;
+                    //padding-bottom: -4px;
+                    //border-bottom: 1px solid $color-light;
+                    //transition: text-decoration-color .12s ease-out,
+                    //color .12s ease-in-out;
+                    //text-shadow: 0 2px 3px rgba(black, 0.2);
+                    transition: text-shadow .2s ease-out;
+
+                    &:hover
+                    {
+                        //color: $color-accent-2;
+                        //text-decoration-color: $color-accent-2;
+                        //text-underline-offset: 3px;
+                        //text-decoration-color: white;
+                        //text-decoration-thickness: 2px;
+                        text-shadow: 0 2px 5px rgba(black, 0.3);
+                    }
                 }
             }
         }
     }
 }
+
+
+//header
+//{
+//    position: absolute;
+//    top: 0;
+//    right: 0;
+//    left: 0;
+//    display: flex;
+//    justify-content: space-between;
+//    align-items: center;
+//    padding: 40px 55px;
+//
+//    h2
+//    {
+//        font-family: $font-1;
+//        font-weight: 500;
+//        font-size: 46px;
+//        letter-spacing: 2px;
+//    }
+//
+//
+//    nav
+//    {
+//        ul
+//        {
+//            display: flex;
+//
+//            li
+//            {
+//                list-style: none;
+//
+//                &:not(:first-of-type)
+//                {
+//                    margin-left: 20px;
+//                }
+//
+//                a
+//                {
+//                    letter-spacing: 1px;
+//                    font-size: 20px;
+//                    font-weight: 400;
+//                    padding-bottom: 1px;
+//                    border-bottom: 2px solid $color-light;
+//                }
+//            }
+//        }
+//    }
+//}
