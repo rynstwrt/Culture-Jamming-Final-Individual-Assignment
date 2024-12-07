@@ -107,6 +107,20 @@ main
                 margin-top: 10px;
             }
 
+            &.more-coming-soon
+            {
+                width: fit-content;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 7px 20px;
+                border-radius: 20px;
+                //box-shadow: inset 0 0 5px rgba(black, .15);
+                font-style: italic;
+                //font-weight: 300;
+                // padding: 17px 20px;
+            }
+
             &.sources
             {
                 background-color: transparent;

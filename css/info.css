@@ -209,6 +209,15 @@ main .section .card a:hover {
 main .section .card:not(:first-of-type) {
   margin-top: 10px;
 }
+main .section .card.more-coming-soon {
+  width: fit-content;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px 20px;
+  border-radius: 20px;
+  font-style: italic;
+}
 main .section .card.sources {
   background-color: transparent;
   padding: 0;
